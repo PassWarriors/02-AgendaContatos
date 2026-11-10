@@ -9,10 +9,6 @@
 
 NOTA: O projeto vai tentar seguir as aulas de POO, atualizando formatos e sua estrutura de forma a ficar coerente e mais adequada para funcionar melhor
 
-
-> **Versão Atual:** `V1.0.0` — Início - Implementação DAO  
-> **Próxima Evolução:** `V1.1.0` - Implementar verificação de dados e impedir inválidos
-
 ---
 
 ## 🎯 Objetivo
@@ -43,9 +39,11 @@ Cada registro armazena estritamente:
 * **Coleções:** Collections Framework (`List` e `ArrayList`)
 * **Versionamento:** Git & GitHub
 
-## 💾 Detalhes da Versão Atual (`V1.0.0`)
+## 💾 Detalhes da Versão Atual (`V1.1.0`)
 
-A principal evolução desta versão foi a **refatoração do padrão DAO**. Os métodos de persistência deixaram de ser estáticos e passaram a ser métodos de instância, exigindo a criação de um objeto via construtor.
+Adicionado mais controle de dados:
+- Não pode inserir dados vazios
+- Sistema de busca traz todos os contatos que tenham o texto que você informou
 
 ---
 
@@ -54,7 +52,8 @@ A principal evolução desta versão foi a **refatoração do padrão DAO**. Os 
 
 | Versão | Fase | Principais Implementações |
 | :---: | :--- | :--- |
-| **V1.0.0** | Atual | DAO totalmente orientado a objetos (métodos de instância e construtores). |
+| **V1.0.0** | Anterior | DAO totalmente orientado a objetos (métodos de instância e construtores). |
+| **V1.1.0** | Atual | Adicionado controle de dados e melhorar busca. |
 ---
 
 ## 🔧 Como Executar o Projeto

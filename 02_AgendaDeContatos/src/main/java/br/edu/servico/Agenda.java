@@ -7,24 +7,31 @@ import br.edu.modelo.Contato;
 
 public class Agenda {
 	
+        // RECEBE UM DADO DO USUARIO APENAS SE FOR VÁLIDO
+        // PRINTA A MENSAGEM DE INFORMAÇÃO
+        public static String ReceberDado(String Mensagem, Scanner sc) {
+            System.out.println(Mensagem);
+            String Dado = sc.nextLine();
+            
+            while (Dado.isEmpty()) {
+                System.out.println("Dado inválido! tente denovo: ");
+                Dado = sc.nextLine();
+            }
+            
+            return Dado;
+        }
+    
 	public static void adicionar(Scanner sc, List<Contato> contatos) {
     	
 		System.out.println("=== ADICIONAR CONTATO ===");
         
-		System.out.print("Digite o nome: ");
-        String nome = sc.nextLine();
-        
-        System.out.print("Digite o celular: ");
-        String celular = sc.nextLine();
-        
-        System.out.print("Digite o email: ");
-        String email = sc.nextLine();
+                String nome = ReceberDado("Digite o nome: " , sc);
+                String celular = ReceberDado("Digite o celular: " , sc);
+                String email = ReceberDado("Digite o email: " , sc);
 
-        Contato contato = new Contato(nome, celular, email);
-
-        contatos.add(contato);
-
-        System.out.println("Contato adicionado com sucesso!");
+                Contato contato = new Contato(nome, celular, email);
+                contatos.add(contato);
+                System.out.println("Contato adicionado com sucesso!");
     }
 	
 	public static void listar(List<Contato> contatos) {
@@ -54,8 +61,7 @@ public class Agenda {
 
         for (Contato contato : contatos) {
 
-            if (contato.getNome().equalsIgnoreCase(nomeBusca)) {
-
+            if (contato.getNome().toLowerCase().contains(nomeBusca.toLowerCase())) {
             	System.out.println("--------------------------");
                 System.out.println(contato);
 

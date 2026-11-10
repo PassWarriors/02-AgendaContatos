@@ -1,1 +1,7 @@
 Ford Prefect;999999999;Ford@galaxy.com
+arthur;2;2
+1;1;1
+Melvin;1;1
+Arthur Dent;69;arthur@galaxy.com
+Trillian;68;Trillian@galaxy.com
+Zaphod Beeblebrox;69;zaphod@.com
