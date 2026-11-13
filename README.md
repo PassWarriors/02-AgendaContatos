@@ -2,7 +2,7 @@
 
 ### Arthur s.t
 
-**Projeto 02: Agenda de contatos feita a partir da versão V4.1.0 do projeto de Agenda de Contatos, cuja é feita durante as aulas de POO**
+**Projeto 02: Agenda de contatos feita a partir da versão V5.0.0 do projeto de Agenda de Contatos, cuja é feita durante as aulas de POO**
 
 **Essa projeto não necessariamente é o final, apenas um teste de tentar estruturar o projeto. Interfaces e elementos representam apenas experimentos**
 
@@ -39,11 +39,9 @@ Cada registro armazena estritamente:
 * **Coleções:** Collections Framework (`List` e `ArrayList`)
 * **Versionamento:** Git & GitHub
 
-## 💾 Detalhes da Versão Atual (`V1.1.0`)
+## 💾 Detalhes da Versão Atual (`V2.0.0`)
 
-Adicionado mais controle de dados:
-- Não pode inserir dados vazios
-- Sistema de busca traz todos os contatos que tenham o texto que você informou
+Implementado MVC básico. Versão teste apenas para ponto de partida real.
 
 ---
 
@@ -53,7 +51,8 @@ Adicionado mais controle de dados:
 | Versão | Fase | Principais Implementações |
 | :---: | :--- | :--- |
 | **V1.0.0** | Anterior | DAO totalmente orientado a objetos (métodos de instância e construtores). |
-| **V1.1.0** | Atual | Adicionado controle de dados e melhorar busca. |
+| **V1.1.0** | Anterior | Adicionado controle de dados e melhorar busca. |
+| **V2.0.0** | Atual | Adicionado o modelo MVC básico, irá ser melhorado |
 ---
 
 ## 🔧 Como Executar o Projeto

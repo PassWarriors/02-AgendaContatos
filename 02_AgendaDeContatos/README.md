@@ -13,21 +13,22 @@ O código está organizado em camadas dentro do diretório `src/br/edu/`:
 ├── src/
 │   └── br/edu/
 │       ├── principal/   # Inicialização do sistema (Principal.java)
+│       ├── controle/    # Trabalha com lógica (AgendaController.java)
 │       ├── modelo/      # Classe de domínio (Contato.java)
 │       ├── servico/     # Regras de negócio e operações (Agenda.java)
 │       ├── dao/         # Persistência de dados (ContatoDAO.java)
-│       └── uteis/       # Funções auxiliares (Uteis.java)
+│       └── Visao/       # Interagir com usuário (AgendaView.java)
 ├── contatos.txt         # Base de dados (gerada automaticamente)
 ```
 
 ### 🧩 Divisão de Responsabilidades
 
-| Classe | Camada / Papel | Responsabilidade Principal |
-| :--- | :--- | :--- |
-| `Principal` | Controle / Visão | Coordena o fluxo do menu e execução do programa. |
-| `Contato` | Modelo (`Domain`) | Modela a entidade de contato e seus atributos. |
-| `Agenda` | Serviço (`Business`) | Centraliza as regras de negócio e a lógica do CRUD. |
-| `ContatoDAO`| Dados (`Data/DAO`) | Gerencia a leitura e escrita no arquivo físico. |
-| `Uteis` | Utilitários | Fornece funções de suporte reutilizáveis. |
-
+| Classe | Responsabilidade Principal |
+| :--- | :--- |
+| `Principal` | Coordena os módulos do programa. |
+| `Contato` | Modela a entidade de contato e seus atributos. |
+| `Agenda` | Centraliza as regras de negócio e a lógica do CRUD. |
+| `ContatoDAO`| Gerencia a leitura e escrita no arquivo físico. |
+| `AgendaController`| Gerencia a lógica interna do programa. |
+| `AgendaView`| Interagir com usuário e receber inputs de dados |
 ---
