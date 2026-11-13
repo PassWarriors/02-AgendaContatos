@@ -29,6 +29,8 @@ Cada registro armazena estritamente:
 * `Nome`
 * `Celular`
 * `E-mail`
+* `Aniversário` **(futuro)**
+
 
 ---
 
@@ -39,9 +41,10 @@ Cada registro armazena estritamente:
 * **Coleções:** Collections Framework (`List` e `ArrayList`)
 * **Versionamento:** Git & GitHub
 
-## 💾 Detalhes da Versão Atual (`V2.0.0`)
+## 💾 Detalhes da Versão Atual (`V2.1.0`)
+Correção de estruturas e organizar os métodos
 
-Implementado MVC básico. Versão teste apenas para ponto de partida real.
+Modificado algumas organizações do código e impedir inputs vazios
 
 ---
 
@@ -52,7 +55,8 @@ Implementado MVC básico. Versão teste apenas para ponto de partida real.
 | :---: | :--- | :--- |
 | **V1.0.0** | Anterior | DAO totalmente orientado a objetos (métodos de instância e construtores). |
 | **V1.1.0** | Anterior | Adicionado controle de dados e melhorar busca. |
-| **V2.0.0** | Atual | Adicionado o modelo MVC básico, irá ser melhorado |
+| **V2.0.0** | Anterior | Adicionado o modelo MVC básico, irá ser melhorado. |
+| **V2.1.0** | Atual | Colocado o programa principal dentro da classe `AgendaView` e impedir inputs vazios. |
 ---
 
 ## 🔧 Como Executar o Projeto
@@ -65,12 +69,14 @@ Implementado MVC básico. Versão teste apenas para ponto de partida real.
 6. Interaja com o sistema através do menu interativo no console/terminal.
 
 ---
-#### let's go gambling!
+<div align="center">
 
-<img src="resources/images/image-1.png" alt="apostas são monocromáticas" width="120" height="80" />
+## 💲🪙💲**let's go gambling**!💲🪙💲
 
+<img src="resources/images/image-1.png" alt="apostas são monocromáticas" width="120" height="80"/>
+<img src="resources/images/image-3.png" alt="lets go gambling" width="170" height="150" />
 <img src="resources/images/image-2.png" alt="benda" width="120" height="80" />
 
-<img src="resources/images/image-3.png" alt="lets go gambling" width="120" height="80" />
+### ⬆️OH DANG IT!⬆️
 
-⬆️"Oh dang it!"⬆️
+</div>

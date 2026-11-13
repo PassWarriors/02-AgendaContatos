@@ -11,7 +11,6 @@ import java.util.List;
 import br.edu.modelo.Contato;
 
 public class ContatoDAO {
-	
 	private String caminhoArquivo;
 
 	public ContatoDAO(String caminhoArquivo) {
