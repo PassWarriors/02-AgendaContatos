@@ -3,15 +3,15 @@ package br.edu.controle;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.dao.ContatoDAO;
+import br.edu.dao.ContatoDao;
 import br.edu.modelo.Contato;
 
 public class AgendaController {
 
     private List<Contato> contatos;
-    private ContatoDAO dao;
+    private ContatoDao dao;
 
-    public AgendaController(List<Contato> contatos, ContatoDAO dao) {
+    public AgendaController(List<Contato> contatos, ContatoDao dao) {
         this.contatos = contatos;
         this.dao = dao;
     }

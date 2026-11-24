@@ -1,8 +1,9 @@
 Ford Prefect;999999999;Ford@galaxy.com
-arthur;2;2
-1;1;1
 Arthur Dent;69;arthur@galaxy.com
 Trillian;68;Trillian@galaxy.com
 Zaphod Beeblebrox;69;zaphod@.com
-2;2;2
 Peppa Pig;+55 (85) 91454-2321;Peppa14@OinkOink.com.br
+Pac-Man;+55 (85) 91980-1323;pacman@yahooDOTcomDOTbr
+Flowery;+77 (77) 97777-7777;HeyGuys@asgore.com
+Rogerio Invenções;+55 (85) 94242-4242;CarroseEngrenagens@Mecanica.com.br
+Plok da Silva;+55 (85) 91993-3991;plokhateflea@cottonisland.com.br

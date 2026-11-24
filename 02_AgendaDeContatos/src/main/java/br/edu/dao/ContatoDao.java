@@ -9,11 +9,14 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import br.edu.modelo.Contato;
+import br.edu.telas.TelaPrincipal;
 
-public class ContatoDAO {
+public class ContatoDao {
 	private String caminhoArquivo;
+        private TelaPrincipal TelaPrin;
 
-	public ContatoDAO(String caminhoArquivo) {
+	public ContatoDao(String caminhoArquivo) {
+                this.TelaPrin = TelaPrin;
 		this.caminhoArquivo = caminhoArquivo;
 	}
 
@@ -70,7 +73,7 @@ public class ContatoDAO {
                         dados[2].trim()
                     );
                     contatos.add(contato);
-
+                            
 	            } else {
 	            	// Agora qualquer linha como ";;", "Joao;;", ou "Joao;123" vai cair aqui
                     System.out.println("Registro inválido ignorado: " + linha);

@@ -17,7 +17,7 @@ O código está organizado em camadas dentro do diretório `src/br/edu/`:
 │       ├── modelo/      # Classe de domínio (Contato.java)
 │       ├── servico/     # Regras de negócio e operações (Agenda.java)
 │       ├── dao/         # Persistência de dados (ContatoDAO.java)
-│       └── Visao/       # Interagir com usuário (AgendaView.java)
+│       └── Telas/       # Interface com JFrames (TelaPrincipal e TelaAdicionarContato)
 └── contatos.txt         # Base de dados (gerada automaticamente)
 ```
 
@@ -29,5 +29,8 @@ O código está organizado em camadas dentro do diretório `src/br/edu/`:
 | `Agenda` | Centraliza as regras de negócio e a lógica do `CRUD`. |
 | `ContatoDAO`| Gerencia a `leitura` e `escrita` no arquivo físico. |
 | `AgendaController`| Gerencia a `lógica interna` do programa. |
-| `AgendaView`| `Interagir` com usuário e `receber inputs` de dados |
+| `TelaPrincipal`| `Tela` onde fica todos os dados, como os contatos e botão de adicionar, que chama a tela `TelaAdicionarContato`. Também foi adicionado um botão para `SalvarContato`|
+| `TelaAdicionarContato` | `Tela` onde o usuário digita `nome`, `celular` e `email` de um contato que não seja vazio em nenhum campo!|
 ---
+
+1 minuto de silêncio para a classe AgendaView e tudo o que ela fez
